@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>System coding webt</title>
+</head>
+
+<body>
+	<!--how to print hello world in html-->
+	Hello world!
+
+	<!--how to create a paragraph and breaks in html-->
+	<p>This is a paragraph <br>
+       tag which stores paragraphs in it.</p> <br>
+
+       <!--h1 to h6 tags whih define the thickness and the size of the text-->
+       <h1>Hello</h1>
+       <h2>Hello</h2>
+       <h3>Hello</h3>
+       <h4>Hello</h4>
+       <h5>Hello</h5>
+       <h6>Hello</h6>
+
+       <!--how to style elements in html-->
+       <p style="background-color:black;color:white;">
+         Hello this is a style tag which is used to style a element
+       </p>
+
+       <!--how to insert images in html-->
+       <!--we use alt to show text images instead of images because 
+       web browsers don't always show the images-->
+        <img src="tutorial.png" alt="this is a image">
+
+        <!--creating videos in html-->
+        <video width="200" height="100" src="tutorial.mp4" poster="first.png" autoplay loop controls></video>
+
+        <!--you can use iframes in html to insert videos in html-->
+        <iframe width="200" height="100" src="https://www.youtube.com/embed/i4fGaa22HO4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br>
+
+        <!--how to create lists and tables in html-->
+        <li>apples</li>
+        <li>mangoes</li>
+        <li>pineapples</li>
+
+        <!--we can put several lists inside of a ordered list or unordered lists in html-->
+        <li>apples</li>
+        <li>mangoes</li>
+        <li>pineapples</li>
+
+        <!--we can also create a ordered list in html-->
+        <ol>
+           <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ol>
+
+        <!--we can also create a unordered list-->
+        <ul>
+           <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ul>
+
+        <!--we have diiferent types in ordered list-->
+        <ol type="1">
+            <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ol>
+
+        <ol type="I">
+            <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ol>
+
+        <ol type="a">
+            <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ol>
+
+        <ol type="A">
+           <li>apples</li>
+           <li>mangoes</li>
+           <li>pineapples</li>
+        </ol>
+
+        <!--let's see how to create tables in html-->
+        <table>
+          <td>hello how are you?</td> <!-- this is table data tag-->
+          <tr>hello how are you?</tr> <!--this is a table row tag-->
+        </table>
+
+        <!--let's see how to create input forms in html-->
+        <input placeholder="email" type="text"> <!--this will take text as input-->
+        <input placeholder="password" type="text"> <!--this will take passowrd as input--> 
+
+        <!--let's see how to create textarea-->
+      <textarea name="" id="" cols="30" rows="10">
+        here we have a textarea where we can type out some text 
+        inside of that textarea
+      </textarea>
+
+      <!--how to create div's in html-->
+      <div>a</div>
+      <div>b</div>
+      <div>c</div>
+
+      <!--let's see how to create buttons in html-->
+      <button>Click Me</button>
+  </body>
+</html>
